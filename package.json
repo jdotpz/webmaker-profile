@@ -7,7 +7,7 @@
     "url": "https://github.com/mozilla/webmaker-profile.git"
   },
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install --allow-root",
     "test": "grunt verify --verbose"
   },
   "dependencies": {
